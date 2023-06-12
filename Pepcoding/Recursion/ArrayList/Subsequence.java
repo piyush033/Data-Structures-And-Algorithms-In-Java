@@ -26,9 +26,11 @@ public class Main {
         
         for(String rnd : rres){
             mres.add("" +  rnd);
-            mres.add(ch + rnd);
         }
         
+        for(String rnd : rres){
+            mres.add(ch + rnd);
+        }
         return mres;
     }
 
